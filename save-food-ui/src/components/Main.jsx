@@ -25,7 +25,7 @@ const Main = () => {
                         data-animation="fadeInLeft"
                         data-delay=".8s"
                       >
-                        Donate
+                        Share your plate
                       </a>
                       <a
                         href="industries.html"
@@ -41,7 +41,6 @@ const Main = () => {
                 </div>
                 <div className="col-xl-6 col-lg-6 col-md-8 col-sm-10">
                     <div className="hunger-img" />
-                    
                 </div>
               </div>
             </div>
