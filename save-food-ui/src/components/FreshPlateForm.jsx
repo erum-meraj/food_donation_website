@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const SharePlate = () => {
+const FreshPlate = () => {
   const [newItem, setNewItem] = useState({});
   const [totalItem, addTotalItem] = useState([]);
 
@@ -66,14 +66,14 @@ const SharePlate = () => {
         **/}
         <div className="row">
         <div className="col-12">
-            <h2 className="contact-title">Food Detail</h2>
+            <h2 className="contact-title">Fresh Food Detail</h2>
           </div>
           <div className="col-lg-12">
             <form className="form-contact contact_form">
               <div className="row">
                 <div className="col-10">
                   <div className="row">
-                    <div className="col-4">
+                    <div className="col-7">
                       <div className="form-group">
                         <input
                           className="form-control valid"
@@ -85,19 +85,7 @@ const SharePlate = () => {
                         />
                       </div>
                     </div>
-                    <div className="col-3">
-                      <div className="form-group">
-                        <select
-                          className="form-control w-100"
-                          id="foodType"
-                          required
-                          onChange={formFiledChangeListener}
-                        >
-                          <option>Fresh Food</option>
-                          <option>Soiled Food</option>
-                        </select>
-                      </div>
-                    </div>
+                    
                     <div className="col-3">
                       <div className="form-group">
                         <select
@@ -138,7 +126,7 @@ const SharePlate = () => {
               </div>
               <div className="row">
                 <div className="col-12">
-                  <table class="table">
+                  <table className="table">
                     <thead>
                       <tr>
                         <th scope="col">#</th>
@@ -219,4 +207,4 @@ const SharePlate = () => {
   );
 };
 
-export default SharePlate;
+export default FreshPlate;

@@ -8288,4 +8288,8 @@ del {
   background-size: contain;
 }
 
+.active-tab {
+  border-bottom: 1.5px solid #09cc7f;
+  color: "#072366";
+}
 /*# sourceMappingURL=style.css.map */

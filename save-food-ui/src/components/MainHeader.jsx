@@ -24,20 +24,20 @@ const MainHeader = () => {
                             <Link to="/">Home</Link>
                           </li>
                           <li>
-                            <Link href="#">About</Link>
+                            <Link to="/">About</Link>
                           </li>
                           <li>
-                            <a href="#">Our Partners</a>
+                            <a to="/">Our Partners</a>
                           </li>
                           <li>
-                            <a href="#">Contact</a>
+                            <a to="/">Contact</a>
                           </li>
                         </ul>
                       </nav>
                     </div>
                     <div className="header-right-btn d-none d-lg-block ml-20">
-                      <Link to="/shareplate" className="btn header-btn">
-                        Share your plate
+                      <Link to="/manageplate" className="btn header-btn">
+                        Manage plate
                       </Link>
                     </div>
                   </div>

@@ -25,7 +25,7 @@ const Main = () => {
                         data-animation="fadeInLeft"
                         data-delay=".8s"
                       >
-                        Share your plate
+                        Manage plate
                       </a>
                       <a
                         href="industries.html"

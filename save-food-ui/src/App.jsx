@@ -9,7 +9,7 @@ import {
   Link
 } from "react-router-dom";
 import Main from './components/Main';
-import SharePlate from './components/SharePlateForm';
+import ManagePlate from './components/ManagePlate';
 
 function App() {
   return (
@@ -19,8 +19,8 @@ function App() {
         <Route exact path="/">
           <Main />
         </Route>
-        <Route path="/shareplate">
-          <SharePlate />
+        <Route path="/manageplate">
+          <ManagePlate />
         </Route>
       </Switch>
     </Router>
